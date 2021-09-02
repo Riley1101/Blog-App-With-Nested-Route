@@ -1,0 +1,27 @@
+header{
+    width: 100%;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    background-color: rgb(73, 73, 73);
+    padding-inline: 1em;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 3em;
+    margin-left: auto;
+    color: white;
+}
+
+
+@media (min-width:600px) {
+    header{
+        width: 70%;
+        margin-inline: auto;
+    }
+    
+}
